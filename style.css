@@ -46,6 +46,7 @@ header button{
     background: none;
      width: fit-content;
      cursor: pointer;
+     transition: 0.5s;
     
 }
 
@@ -77,6 +78,7 @@ header nav.mobile.abrir{
 header nav button{
     align-self: flex-end;
     margin-bottom: 4rem;
+    transition: 0.5s;
 }
 
 header nav.mobile{
@@ -214,10 +216,12 @@ main{
         line-height: 1.625rem;
         text-decoration: none;
         color: var(--gunmetal);
+        transition: 0.5s;
     }
 
     header .desktop a:hover{
         color: var(--vermillion);
+        transition: 0.5s;
     }
 
     
@@ -250,6 +254,7 @@ main{
     .primeira-secao button:hover{
         background-color: var(--dark-blue);
         cursor: pointer;
+        transition: 0.5s;
     }
 
     .segunda-secao h2{
@@ -263,6 +268,7 @@ main{
 
     .terceira-secao h2:hover{
         color: var(--vermillion);
+        transition: 0.5s;
     }
 
 }
